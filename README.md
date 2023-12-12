@@ -29,7 +29,7 @@ This code is a part of a web application that uses D3.js and Plotly to create an
    - This function populates the demographic information panel.
    - It filters the metadata based on the selected sample ID and displays the key-value pairs in the HTML element with the ID "sample-metadata."
 
-6. **Dropdown Change Event Function (`optionChanged`):**
+6. **Dropdown Change Event Function 
    - This function is called whenever the dropdown selection changes.
    - It logs the selected value and calls the three functions (`makeBar`, `makeBubble`, and `makeDemographics`) to update the charts and demographic information based on the selected sample.
 
