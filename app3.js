@@ -107,7 +107,7 @@ function makeBubble(sample) {
             xaxis: { title: 'OTU ID' },
             yaxis: { title: 'Number of Bacteria' }
         };
-        Plotly.newPlot("bubble", [bubble_trace], layout); //'bubble' is the html tag in index.html
+        Plotly.newPlot("bubble", [bubble_trace], layout); 
     });
 }
 
